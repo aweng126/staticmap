@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>小测试</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=uotMOqTFFeM7oGdpQU8dA7r4Xw72xod4"></script>
+	<link rel="stylesheet" href="css/mmap.css" />
+	
+</head>
+
+<body>
+	<canvas id="container" width="1366px" height="768px"></canvas>
+
+	<div style="float: left;position: relative ;margin-top: -100%; "id="allmap"></div>
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+	<script type="text/javascript" src="js/map.js" ></script>
+	
+		<!--搜索框-->
+	<div id="searchbox" >
+		
+	      <input id="searchcontent"  type="text" value=""/>
+	
+	      <button id="searchbutton" onclick="mysearch()"</button>>
+	<!--自动提示栏-->
+	<!--<div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>-->
+		
+	</div>
+	
+	<script type="text/javascript">
+		function mysearch(){
+			var text=$("#searchcontent").val();
+			alert("输入的文字为"+text);	
+		}
+	</script>
+</body>
+
+
+
+</html>

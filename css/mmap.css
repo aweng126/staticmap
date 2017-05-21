@@ -1,0 +1,54 @@
+
+*{
+	margin: 0 ;
+	padding: 0;
+ }
+
+#container{ 
+	width: 100%;
+	height: 100%;
+	background-color: lightgrey;
+	position: relative;
+	z-index: 10;}
+	
+#allmap {
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+	margin:0;
+	font-family:"微软雅黑";}
+	
+#searchbox {
+	position:fixed; 
+	top: 23px; 
+	left: 64px;
+	height: 36px;
+	width: 360px;
+	border-radius: 8px;
+	z-index: 10;
+}
+
+#searchcontent{
+
+	height:36px;
+	width: 240px;
+	font-size: 20px;
+	border-radius:8px 0px 0px 8px ;
+	border: none;
+	text-align: center;
+	float: left;
+	color: grey;
+   
+}
+
+#searchbutton{
+	position:fixed; 
+	top: 23px; 
+	height:38px;
+	width: 60px;
+	font-size: 20px;
+	float: left;
+	border: none;
+	border-radius: 0px 8px 8px 0px;
+	background: lightblue;
+}
